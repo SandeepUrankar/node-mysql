@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="./home"><b>Homepage</b></a>
+      <a href="./services">Services</a>
+      <a href="./rentals">Rentals</a>
+    </div>
+    <h1 class="home-title">Welcome, Book a ride.</h1>
+    <form action="/book" method="post" class="form-homepage">
+      <input type="text" required placeholder="Name" name="inputName" />
+      <input type="text" required placeholder="From" name="inputFrom" />
+      <input type="text" required placeholder="To" name="inputTo" />
+      <input type="number" required placeholder="Kilometers" name="inputKms" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
